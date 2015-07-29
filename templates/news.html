@@ -1,0 +1,7 @@
+<h3>News</h3>
+<div ng-show="isError">An error occurred. Try again.</div>
+<div ng-show="isLoading">Loading...</div>
+<div ng-repeat="newsItem in news">
+    <h4>{{newsItem.title}}</h4>
+    <p>{{newsItem.content}}</p>
+</div>
